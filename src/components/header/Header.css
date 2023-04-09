@@ -1,0 +1,39 @@
+.header-content {
+  background: linear-gradient(45deg, #7e8ffe17, #9873ff0c);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.nav-logo a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 800;
+  color: #000;
+}
+.nav-link {
+  display: flex;
+  gap: 20px;
+}
+.nav-link a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+.nav-apply-btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #7e90fe, #9873ff);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
