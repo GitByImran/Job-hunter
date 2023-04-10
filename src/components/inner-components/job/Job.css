@@ -1,0 +1,41 @@
+.job-content {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 8px;
+    padding: 20px;
+    line-height: 40px;
+}
+.job-content img {
+    height: 50px;
+    width: auto;
+}
+.job-content button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #7e90fe, #9873ff);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.job-type span {
+    color: #7e8ffe;
+    border: 1px solid #7e8ffe;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+.location-and-salary span {
+    color: #7e8ffe;
+}
+.job-type {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+.location-and-salary {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}

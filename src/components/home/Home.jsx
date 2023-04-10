@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
 import "./Home.css";
 import Categories from "../inner-components/categories/Categories";
+import Jobs from "../inner-components/jobs/Jobs";
 
 const Home = () => {
+  const jobData = useLoaderData();
+
+  const [details, setDetails] = useState([]);
+
+  useEffect(() => {
+    // console.log(details);
+  }, [details]);
+
+  const handleViewDetails = (id) => {
+    setDetails(id);
+  };
+
   return (
     <div>
       {/* cover section */}
@@ -51,6 +65,18 @@ const Home = () => {
             Explore thousands of job opportunities with all the information you
             need. Its your future
           </p>
+        </div>
+        <div className="content">
+          {jobData.map((data) => (
+            <Jobs
+              key={data.id}
+              data={data}
+              handleViewDetails={handleViewDetails}
+            />
+          ))}
+        </div>
+        <div className="featured-btn">
+          <button className="job-container-btn">see all jobs</button>
         </div>
       </div>
 
