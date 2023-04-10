@@ -1,0 +1,26 @@
+[
+  {
+    "logo": "https://example.com/job_logo_1.png",
+    "title": "Software Engineer",
+    "description": "We are looking for a talented software engineer to join our team.",
+    "location": "San Francisco, CA"
+  },
+  {
+    "logo": "https://example.com/job_logo_2.png",
+    "title": "Data Analyst",
+    "description": "We are seeking a data analyst with experience in Python and SQL.",
+    "location": "New York, NY"
+  },
+  {
+    "logo": "https://example.com/job_logo_3.png",
+    "title": "Product Manager",
+    "description": "We are looking for an experienced product manager to help us develop our next-generation products.",
+    "location": "Seattle, WA"
+  },
+  {
+    "logo": "https://example.com/job_logo_4.png",
+    "title": "Frontend Developer",
+    "description": "We are seeking a frontend developer with expertise in React and CSS.",
+    "location": "Austin, TX"
+  }
+]
