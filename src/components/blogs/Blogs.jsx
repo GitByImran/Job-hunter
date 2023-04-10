@@ -1,9 +1,12 @@
 import React from "react";
+import {} from "./Blogs.css";
 
 const Blogs = () => {
   return (
     <div>
-      <h2>blog page</h2>
+      <div className="section-header">
+        <h2>blogs</h2>
+      </div>
     </div>
   );
 };

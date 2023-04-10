@@ -1,9 +1,12 @@
 import React from "react";
+import "./Applieds.css";
 
 const Applieds = () => {
   return (
     <div>
-      <h2>applied page</h2>
+      <div className="section-header">
+        <h2>applied jobs</h2>
+      </div>
     </div>
   );
 };

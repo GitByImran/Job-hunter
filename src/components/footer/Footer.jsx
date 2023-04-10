@@ -24,35 +24,35 @@ const Footer = () => {
         <div className="company">
           <h2>company</h2>
           <div className="quick-links">
-            <a href="#">About Us</a>
-            <a href="#">Work</a>
-            <a href="#">Latest News</a>
-            <a href="#">Careers</a>
+            <a href="">About Us</a>
+            <a href="">Work</a>
+            <a href="">Latest News</a>
+            <a href="">Careers</a>
           </div>
         </div>
         <div className="product">
           <h2>product</h2>
           <div className="quick-links">
-            <a href="#">Prototype</a>
-            <a href="#">Plans & Pricing</a>
-            <a href="#">Customers</a>
-            <a href="#">Integrations</a>
+            <a href="">Prototype</a>
+            <a href="">Plans & Pricing</a>
+            <a href="">Customers</a>
+            <a href="">Integrations</a>
           </div>
         </div>
         <div className="support">
           <h2>support</h2>
           <div className="quick-links">
-            <a href="#">Help Desk</a>
-            <a href="#">Sales</a>
-            <a href="#">Become a Partner</a>
-            <a href="#">Developers</a>
+            <a href="">Help Desk</a>
+            <a href="">Sales</a>
+            <a href="">Become a Partner</a>
+            <a href="">Developers</a>
           </div>
         </div>
         <div className="contact">
           <h2>contact</h2>
           <div className="quick-links">
-            <a href="#">524 Broadway , NYC</a>
-            <a href="#">+1 777 - 978 - 5570</a>
+            <a href="">524 Broadway , NYC</a>
+            <a href="">+1 777 - 978 - 5570</a>
           </div>
         </div>
       </div>

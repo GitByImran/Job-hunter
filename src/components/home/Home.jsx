@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Categories from "../inner-components/categories/Categories";
 
 const Home = () => {
   return (
@@ -33,13 +34,17 @@ const Home = () => {
         <div className="section-title">
           <h2>Job Category List</h2>
           <p>
-            We are providng all the IT relatives jobs for you. Find you're one
+            We are providng all the higher proffessional jobs for you. Find
+            you're one
           </p>
+        </div>
+        <div className="content">
+          <Categories />
         </div>
       </div>
 
       {/* job category section */}
-      <div className="categories-container">
+      <div className="Featured-container">
         <div className="section-title">
           <h2>Featured Jobs</h2>
           <p>

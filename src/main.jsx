@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import StaticRoot from "./components/static-root/StaticRoot";
 import Home from "./components/home/Home";
