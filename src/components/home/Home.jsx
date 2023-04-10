@@ -32,7 +32,9 @@ const Home = () => {
       <div className="categories-container">
         <div className="section-title">
           <h2>Job Category List</h2>
-          <p>We are providng all the IT relatives jobs. Find you're one</p>
+          <p>
+            We are providng all the IT relatives jobs for you. Find you're one
+          </p>
         </div>
       </div>
 
