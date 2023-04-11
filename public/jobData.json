@@ -75,7 +75,7 @@
     "id": 15,
     "company_logo": "https://i.ibb.co/xqRYPnG/Logonetflix.png",
     "job_title": "Financial Analyst",
-    "company_name": "ABC Finance",
+    "company_name": "Netflix",
     "remote_or_onsite": "Onsite",
     "location": "Houston, TX",
     "fulltime_or_parttime": "Full-time",
@@ -86,14 +86,14 @@
     "experiences": "2+ years of experience in financial analysis or related field.",
     "contact_information": {
       "phone": "555-1357",
-      "email": "jobs@abcfinance.com"
+      "email": "jobs@netflix.com"
     }
   },
   {
     "id": 16,
     "company_logo": "https://i.ibb.co/mb4T81w/tesla-logo-png-20.png",
     "job_title": "Sales Representative",
-    "company_name": "123 Sales",
+    "company_name": "Tesla",
     "remote_or_onsite": "Onsite",
     "location": "Dallas, TX",
     "fulltime_or_parttime": "Full-time",

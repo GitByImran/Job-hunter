@@ -1,17 +1,20 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useNavigate, useLoaderData } from "react-router-dom";
 import "./Home.css";
 import Categories from "../inner-components/categories/Categories";
 import Jobs from "../inner-components/jobs/Jobs";
 
 const Home = () => {
   const jobData = useLoaderData();
+  const navigate = useNavigate();
 
   const [details, setDetails] = useState([]);
 
   useEffect(() => {
-    // console.log(details);
-  }, [details]);
+    if (!jobData) {
+      navigate("/", { replace: true });
+    }
+  }, [jobData]);
 
   const handleViewDetails = (id) => {
     setDetails(id);
@@ -67,13 +70,14 @@ const Home = () => {
           </p>
         </div>
         <div className="content">
-          {jobData.map((data) => (
-            <Jobs
-              key={data.id}
-              data={data}
-              handleViewDetails={handleViewDetails}
-            />
-          ))}
+          {jobData &&
+            jobData.map((data) => (
+              <Jobs
+                key={data.id}
+                data={data}
+                handleViewDetails={handleViewDetails}
+              />
+            ))}
         </div>
         <div className="featured-btn">
           <button className="job-container-btn">see all jobs</button>

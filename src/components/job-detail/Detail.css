@@ -1,0 +1,53 @@
+.detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    padding: 50px 30px;
+}
+.detail-right {
+    background: linear-gradient(45deg, #7e8ffe17, #9873ff0c);
+    padding: 20px;
+}
+.detail-right hr{
+    margin-top: 10px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.detail-right h4{
+    display: flex;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 800;
+    color: #272727;
+}
+.detail-right h4 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+.detail-right button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #7e90fe, #9873ff);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.content {
+    padding: 20px 0;
+    line-height: 30px;
+}
+.detail-left h4{
+    font-size: 17px;
+    font-weight: 800;
+    color: #272727;
+}
+.detail-left h4 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f3f3f;
+    padding: 20px 0;
+}
