@@ -5,9 +5,10 @@ const addToDb = (id) => {
   // add quantity
   const quantity = shoppingCart[id];
   if (!quantity) {
+    toast("Added to applied !!");
     shoppingCart[id] = 1;
   } else {
-    toast("You have already applied !!");
+    toast.warn("You have already applied !!");
     const newQuantity = quantity + 1;
     shoppingCart[id] = newQuantity;
   }
