@@ -1,3 +1,20 @@
+.filter {
+    text-align: right;
+}
+.filter-btn {
+    color: #333333;
+    padding: 10px 10px;
+}
+.filter-btn option{
+    background: #fff;
+    color: #000;
+    margin: 10px;
+}
+.applied-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
 .section-header {
     text-align: center;
     background: linear-gradient(45deg, #7e8ffe17, #9873ff0c);

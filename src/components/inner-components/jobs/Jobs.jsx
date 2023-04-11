@@ -5,7 +5,7 @@ import Job from "../job/Job";
 const Jobs = (props) => {
   return (
     <div>
-      <Job data={props.data} handleViewDetails={props.handleViewDetails} />
+      <Job data={props.data} />
     </div>
   );
 };

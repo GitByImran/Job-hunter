@@ -8,17 +8,11 @@ const Home = () => {
   const jobData = useLoaderData();
   const navigate = useNavigate();
 
-  const [details, setDetails] = useState([]);
-
   useEffect(() => {
     if (!jobData) {
       navigate("/", { replace: true });
     }
   }, [jobData]);
-
-  const handleViewDetails = (id) => {
-    setDetails(id);
-  };
 
   return (
     <div>
@@ -70,14 +64,7 @@ const Home = () => {
           </p>
         </div>
         <div className="content">
-          {jobData &&
-            jobData.map((data) => (
-              <Jobs
-                key={data.id}
-                data={data}
-                handleViewDetails={handleViewDetails}
-              />
-            ))}
+          {jobData && jobData.map((data) => <Jobs key={data.id} data={data} />)}
         </div>
         <div className="featured-btn">
           <button className="job-container-btn">see all jobs</button>

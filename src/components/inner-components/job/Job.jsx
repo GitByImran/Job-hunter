@@ -3,7 +3,6 @@ import "./Job.css";
 import { Link } from "react-router-dom";
 
 const Job = (props) => {
-  const handleViewDetails = props.handleViewDetails;
   const {
     id,
     company_logo,
@@ -27,10 +26,9 @@ const Job = (props) => {
         <span>{location}</span>
         <span>{salary}</span>
       </div>
-      <button onClick={() => handleViewDetails(props.data)}>
+      <Link to={`/detail/${id}`} className="view-detail-btn">
         view details
-      </button>
-      <Link to={`/detail/${id}`}>show details</Link>
+      </Link>
     </div>
   );
 };
