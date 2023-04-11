@@ -71,9 +71,14 @@ const Home = () => {
               .map((data) => <Jobs key={data.id} data={data} />)}
         </div>
         <div className="featured-btn">
-          <button className="job-container-btn" onClick={() => setJobCount(10)}>
-            see all jobs
-          </button>
+          {jobCount === 6 && (
+            <button
+              className="job-container-btn"
+              onClick={() => setJobCount(10)}
+            >
+              see all jobs
+            </button>
+          )}
         </div>
       </div>
 

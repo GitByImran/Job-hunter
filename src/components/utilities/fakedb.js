@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 // use local storage to manage cart data
 const addToDb = (id) => {
   let shoppingCart = getShoppingCart();
@@ -6,6 +7,7 @@ const addToDb = (id) => {
   if (!quantity) {
     shoppingCart[id] = 1;
   } else {
+    toast("You have already applied !!");
     const newQuantity = quantity + 1;
     shoppingCart[id] = newQuantity;
   }
@@ -35,9 +37,4 @@ const deleteShoppingCart = () => {
   localStorage.removeItem("applied-jobs");
 };
 
-export {
-    addToDb,
-    removeFromDb,
-    getShoppingCart,
-    deleteShoppingCart
-}
+export { addToDb, removeFromDb, getShoppingCart, deleteShoppingCart };

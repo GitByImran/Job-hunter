@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Detail.css";
 import { useParams } from "react-router-dom";
 import { addToDb } from "../utilities/fakedb";
-// import { addToDb } from "../utilities/fakedb";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Detail = () => {
   const { detailId } = useParams();
@@ -75,6 +76,7 @@ const Detail = () => {
           </h4>
         </div>
         <button onClick={() => handleApplyBtn(id)}>Apply Now</button>
+        <ToastContainer />
       </div>
       {/*  */}
     </div>
