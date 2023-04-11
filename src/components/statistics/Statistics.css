@@ -1,0 +1,10 @@
+.statistics-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.statistics-container h4 {
+    font-size: 20px;
+    padding: 20px 0;
+}

@@ -35,6 +35,7 @@
     font-weight: 500;
     letter-spacing: 0.5px;
     text-transform: capitalize;
+    cursor: pointer;
 }
 .content {
     padding: 20px 0;
