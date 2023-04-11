@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Detail.css";
 import { useParams } from "react-router-dom";
 import { addToDb } from "../utilities/fakedb";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Detail = () => {

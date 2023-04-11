@@ -34,7 +34,7 @@ const Job = (props) => {
           Salary : {salary}
         </span>
       </div>
-      <Link to={`/detail/${id}`} className="view-detail-btn">
+      <Link to={`/job/${id}`} className="view-detail-btn">
         view details
       </Link>
     </div>
