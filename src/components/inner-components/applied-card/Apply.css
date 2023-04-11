@@ -46,11 +46,17 @@
     border: 1px solid #7e8ffe;
     padding: 8px 20px;
     border-radius: 5px;
+    font-weight: 600;
 }
 .job-location-and-salary {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     margin: 10px 0;
+}
+.job-location-and-salary span {
+    color: #5a5a5a;
+    letter-spacing: .5px;
+    font-weight: 600;
 }
 .view-detail-btn{
     padding: 15px 20px;

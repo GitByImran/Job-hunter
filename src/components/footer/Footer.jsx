@@ -1,6 +1,12 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -15,9 +21,15 @@ const Footer = () => {
               and Find the Right Job On <b>Higher Hires</b>.
             </p>
             <div className="media-link">
-              <a href="">hello</a>
-              <a href="">world</a>
-              <a href="">...!!</a>
+              <a href="">
+                <FontAwesomeIcon icon={faFacebookF} className="icon" />
+              </a>
+              <a href="">
+                <FontAwesomeIcon icon={faTwitter} className="icon" />
+              </a>
+              <a href="">
+                <FontAwesomeIcon icon={faInstagram} className="icon" />
+              </a>
             </div>
           </div>
         </div>

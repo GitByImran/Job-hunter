@@ -7,6 +7,7 @@ import Jobs from "../inner-components/jobs/Jobs";
 const Home = () => {
   const jobData = useLoaderData();
   const navigate = useNavigate();
+  const [jobCount, setJobCount] = useState(6);
 
   useEffect(() => {
     if (!jobData) {
@@ -64,10 +65,15 @@ const Home = () => {
           </p>
         </div>
         <div className="content">
-          {jobData && jobData.map((data) => <Jobs key={data.id} data={data} />)}
+          {jobData &&
+            jobData
+              .slice(0, jobCount)
+              .map((data) => <Jobs key={data.id} data={data} />)}
         </div>
         <div className="featured-btn">
-          <button className="job-container-btn">see all jobs</button>
+          <button className="job-container-btn" onClick={() => setJobCount(10)}>
+            see all jobs
+          </button>
         </div>
       </div>
 

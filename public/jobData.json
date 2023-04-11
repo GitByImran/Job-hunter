@@ -7,7 +7,7 @@
     "remote_or_onsite": "Remote",
     "location": "Any",
     "fulltime_or_parttime": "Full-time",
-    "salary": "$80,000 - $100,000",
+    "salary": "80k - 100k",
     "job_description": "We are seeking a data analyst with experience in Python and SQL.",
     "job_responsibility": "Analyze and interpret complex data sets to identify trends and insights.",
     "educational_requirements": "Bachelor's or Master's degree in Statistics, Mathematics, Economics or related field.",
@@ -25,7 +25,7 @@
     "remote_or_onsite": "Onsite",
     "location": "New York, NY",
     "fulltime_or_parttime": "Full-time",
-    "salary": "$120,000 - $140,000",
+    "salary": "120k - 140k",
     "job_description": "We are looking for an experienced product manager to help us develop our next-generation products.",
     "job_responsibility": "Define and prioritize product features and requirements.",
     "educational_requirements": "Bachelor's or Master's degree in Business Administration or related field.",
@@ -43,7 +43,7 @@
     "remote_or_onsite": "Onsite",
     "location": "Chicago, IL",
     "fulltime_or_parttime": "Full-time",
-    "salary": "$50,000 - $60,000",
+    "salary": "50k - 60k",
     "job_description": "We are seeking a marketing coordinator to assist with our marketing campaigns.",
     "job_responsibility": "Assist with the development and execution of marketing campaigns.",
     "educational_requirements": "Bachelor's degree in Marketing or related field.",
@@ -61,7 +61,7 @@
     "remote_or_onsite": "Onsite",
     "location": "Los Angeles, CA",
     "fulltime_or_parttime": "Part-time",
-    "salary": "$25 - $35 per hour",
+    "salary": "25 - 35 per hour",
     "job_description": "We are seeking a graphic designer to create visual assets for our clients.",
     "job_responsibility": "Create visual designs for print and digital media.",
     "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field.",
@@ -79,7 +79,7 @@
     "remote_or_onsite": "Onsite",
     "location": "Houston, TX",
     "fulltime_or_parttime": "Full-time",
-    "salary": "$70,000 - $90,000",
+    "salary": "70k - 90k",
     "job_description": "We are seeking a financial analyst to provide financial analysis and reporting for our company.",
     "job_responsibility": "Analyze financial data and prepare financial reports.",
     "educational_requirements": "Bachelor's or Master's degree in Finance or related field.",
@@ -97,7 +97,7 @@
     "remote_or_onsite": "Onsite",
     "location": "Dallas, TX",
     "fulltime_or_parttime": "Full-time",
-    "salary": "$50,000 - $60,000",
+    "salary": "50k - 60k",
     "job_description": "We are seeking a sales representative to sell our products to customers.",
     "job_responsibility": "Develop and maintain relationships with customers to generate sales.",
     "educational_requirements": "High school diploma or equivalent.",
@@ -105,6 +105,78 @@
     "contact_information": {
       "phone": "555-5790",
       "email": "jobs@123sales.com"
+    }
+  },
+  {
+    "id": 17,
+    "company_logo": "https://i.ibb.co/mNnWFS3/Intellij-IDEA-2017-Logo.png",
+    "job_title": "Software Engineer",
+    "company_name": "Intellij",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "100k - 120k",
+    "job_description": "We are seeking a software engineer to develop and maintain software applications.",
+    "job_responsibility": "Design, develop, and maintain software applications.",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "5+ years of experience in software development or related field.",
+    "contact_information": {
+      "phone": "555-2468",
+      "email": "jobs@intellij.com"
+    }
+  },
+  {
+    "id": 18,
+    "company_logo": "https://i.ibb.co/rtVnMfc/pngwing-com.png",
+    "job_title": "Marketing Coordinator",
+    "company_name": "Shopify",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "45k - 55k",
+    "job_description": "We are seeking a marketing coordinator to support marketing initiatives for our company.",
+    "job_responsibility": "Assist in the development and implementation of marketing strategies.",
+    "educational_requirements": "Bachelor's degree in Marketing or related field.",
+    "experiences": "1+ years of experience in marketing or related field.",
+    "contact_information": {
+      "phone": "555-0123",
+      "email": "jobs@shopify.com"
+    }
+  },
+  {
+    "id": 19,
+    "company_logo": "https://i.ibb.co/c33WQMJ/Alphabet-Inc-Logo-2015-svg.png",
+    "job_title": "Human Resources Manager",
+    "company_name": "Alphabet Inc.",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "90k - 110k",
+    "job_description": "We are seeking a human resources manager to oversee HR operations for our company.",
+    "job_responsibility": "Develop and implement HR policies and procedures.",
+    "educational_requirements": "Bachelor's or Master's degree in Human Resources or related field.",
+    "experiences": "5+ years of experience in HR or related field.",
+    "contact_information": {
+      "phone": "555-9876",
+      "email": "jobs@alphabetinc.com"
+    }
+  },
+  {
+    "id": 20,
+    "company_logo": "https://i.ibb.co/Z2c3KX7/Facebook-Logo-PNG12.png",
+    "job_title": "Web Developer",
+    "company_name": "Facebook",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "80k - 100k",
+    "job_description": "We are seeking a web developer to design and develop websites for our clients.",
+    "job_responsibility": "Design and develop websites for clients using HTML, CSS, and JavaScript.",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience in web development or related field.",
+    "contact_information": {
+      "phone": "555-1357",
+      "email": "jobs@facebook.com"
     }
   }
 ]

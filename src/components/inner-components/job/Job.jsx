@@ -1,6 +1,8 @@
 import React from "react";
 import "./Job.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDollar, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Job = (props) => {
   const {
@@ -23,8 +25,14 @@ const Job = (props) => {
         <span>{fulltime_or_parttime}</span>
       </div>
       <div className="location-and-salary">
-        <span>{location}</span>
-        <span>{salary}</span>
+        <span>
+          <FontAwesomeIcon icon={faLocationDot} className="icon" />
+          {location}
+        </span>
+        <span>
+          <FontAwesomeIcon icon={faDollar} className="icon" />
+          Salary : {salary}
+        </span>
       </div>
       <Link to={`/detail/${id}`} className="view-detail-btn">
         view details

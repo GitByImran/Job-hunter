@@ -27,6 +27,33 @@
   color: #ffffffa2;
   margin: 20px 0;
 }
+.media-link {
+  display: flex;
+  gap: 10px;
+}
+.media-link a {
+  background: rgb(255, 255, 255);
+  padding: 10px 11px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.media-link a:nth-child(1) .icon {
+  color: rgb(0, 60, 255);
+  height: 20px;
+  width: 20px;
+}
+.media-link a:nth-child(2) .icon {
+  color: rgb(16, 216, 252);
+  height: 20px;
+  width: 20px;
+}
+.media-link a:nth-child(3) .icon {
+  color: red;
+  height: 20px;
+  width: 20px;
+}
 .company,
 .product,
 .support,

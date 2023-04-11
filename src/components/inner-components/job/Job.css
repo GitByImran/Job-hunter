@@ -28,7 +28,9 @@
     border-radius: 5px;
 }
 .location-and-salary span {
-    color: #7e8ffe;
+    color: #5a5a5a;
+    letter-spacing: .5px;
+    font-weight: 600;
 }
 .job-type {
     display: flex;
@@ -37,6 +39,9 @@
 }
 .location-and-salary {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     margin: 10px 0;
+}
+.icon {
+    margin-right: 5px;
 }
