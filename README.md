@@ -18,7 +18,7 @@ Github Repo -> [higher-hires](https://github.com/Porgramming-Hero-web-course/b7a
 2. React Router
 3. React-Router-DOM
 
-## Routes >single page application
+## Routes > single page application
 
 1. Home (default)
 2. Statistics
