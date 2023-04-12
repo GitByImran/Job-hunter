@@ -6,7 +6,7 @@ An platform for finding onsite or remote job, all the companies hire with an max
 
 ## Live Link
 
-Hosted in Netlify -> [Higher Hires](https://herogadget.netlify.app/)
+Hosted in Netlify -> [Higher Hires](https://higherhires.netlify.app/)
 
 ## Starter Template
 
