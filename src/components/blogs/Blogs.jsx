@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <div>
       <div className="section-header">
-        <h2>statistics page</h2>
+        <h2>blog page</h2>
       </div>
       <div className="section-container">
         <div style={{ marginBottom: "50px" }}>
