@@ -70,3 +70,23 @@
     text-transform: capitalize;
     text-decoration: none;
 }
+
+@media screen and (max-width:576px) {
+    .applied-content {
+        flex-direction: column;
+        border-radius: 8px;
+    }
+    .applied-job-img {
+        width: 50%;
+    }
+    .job-location-and-salary {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .view-detail-btn {
+        text-align: center;
+    }
+    .applied-job-info {
+        align-items: initial;
+    }
+}

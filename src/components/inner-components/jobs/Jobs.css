@@ -1,3 +1,5 @@
-.job-content-card {
-    width: fit-content;
+@media screen and (max-width:576px) {
+  .job-content-card {
+    width: 100%;
   }
+}

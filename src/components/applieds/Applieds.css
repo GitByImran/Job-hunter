@@ -24,3 +24,16 @@
     font-size: 32px;
     text-transform: capitalize;
 }
+
+@media screen and (max-width:576px) {
+    .applied-container {
+        padding: 30px;
+    }
+    .applied-job-info {
+        flex-direction: column;
+    }
+    .job-location-and-salary {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
