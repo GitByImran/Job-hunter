@@ -4,7 +4,7 @@ import Job from "../job/Job";
 
 const Jobs = (props) => {
   return (
-    <div>
+    <div className="job-content-card">
       <Job data={props.data} />
     </div>
   );

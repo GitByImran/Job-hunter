@@ -1,23 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
+  const [toggle, setToggle] = useState(false);
   return (
     <div className="header-content">
       <nav className="navbar">
         <div className="nav-logo">
-          <Link to="/">higher hires</Link>
+          <NavLink to="/">higher hires</NavLink>
         </div>
-        <div className="nav-link">
-          <Link to="/">home</Link>
-          <Link to="/statistics">statistics</Link>
-          <Link to="/applieds">applied jobs</Link>
-          <Link to="/blogs">blogs</Link>
+        <div className={toggle ? "nav-other-responsive" : "nav-other"}>
+          <div className="nav-link">
+            <NavLink to="/">home</NavLink>
+            <NavLink to="/statistics">statistics</NavLink>
+            <NavLink to="/applieds">applied jobs</NavLink>
+            <NavLink to="/blogs">blogs</NavLink>
+          </div>
+          <div className="nav-btn">
+            <button className="nav-apply-btn">Start Applying</button>
+          </div>
         </div>
-        <div className="nav-btn">
-          <button className="nav-apply-btn">Start Applying</button>
-        </div>
+        <FontAwesomeIcon
+          onClick={() => setToggle(!toggle)}
+          icon={faBars}
+          className="toggle-menu"
+        />
       </nav>
     </div>
   );

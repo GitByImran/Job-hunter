@@ -7,3 +7,9 @@
     gap: 30px;
     flex-wrap: wrap;
 }
+@media screen and (max-width:576px) {
+    .categories-content {
+        justify-content: center;
+        padding: 0 50px;
+    }
+}

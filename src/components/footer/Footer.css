@@ -33,7 +33,7 @@
 }
 .media-link a {
   background: rgb(255, 255, 255);
-  padding: 10px 11px;
+  padding: 10px 8px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -91,4 +91,19 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width:576px) {
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    gap: 20px 50px;
+  }
+  .footer-bottom {
+    padding: 0 50px;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
 }

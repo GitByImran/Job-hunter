@@ -94,3 +94,42 @@ main {
     letter-spacing: 0.5px;
     text-transform: capitalize;
 }
+
+/*  */
+@media screen and (max-width: 576px) {
+  .cover {
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  .cover-img {
+    height: auto;
+    max-width: 100%;
+  }
+  .cover-img img {
+    height: auto;
+    width: 100%;
+  }
+  .cover-text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  .categories-content {
+    justify-content: center;
+    text-align: center;
+  }
+  .section-title p {
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  .content {
+    padding: 0;
+  }
+  .Featured-container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
